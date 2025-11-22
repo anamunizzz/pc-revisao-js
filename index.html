@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Manipulação de Eventos</h1>
+    <div style="width: 150px; height: 150px; background-color: aqua;"></div>
+<script>
+    let isApproved = false
+    element.addEventListener("mouseover", () => {
+        element.style.backgroundColor = "red"
+    })
+
+     element.addEventListener("mouseout", () => {
+        element.style.backgroundColor = "aqua"
+    })
+
+    let element = document.getElementById("box")
+    if (isApproved) {
+        element.style.backgroundColor = "red"
+    }
+
+    element.addEventListener("mouseover", () => {
+        element.style.backgroundColor = "red"
+    })
+
+    element.addEventListener("mouseout", () => {
+        element.style.backgroundColor = "aqua"
+
+    })
+</script>
+   
+</body>
+</html>
